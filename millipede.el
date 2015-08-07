@@ -5,7 +5,7 @@
 (setq padding (vector "  " " " "" " " "  " "   " "    " "   "))
 
 (defun millipede (size)
-    "Print each element of LIST on a line of its own."
+    "Print the millipede."
     (setq i 0)
     (princ head)
     (while (< i size)
