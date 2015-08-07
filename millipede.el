@@ -1,4 +1,6 @@
-#!/usr/bin/env emacs --script
+#!/bin/sh
+":"; exec emacs --quick --script "$0" "$@" # -*- mode: emacs-lisp; lexical-binding: t; -*-
+(delete 'Git vc-handled-backends)
 
 (setq head "    ╚⊙ ⊙╝\n")
 (setq body "╚═(███)═╝\n")
@@ -25,7 +27,7 @@
             (setq size 22)
         )
 
-    (when (<= size 2)
+    (when (<= size 0)
             (setq size 20)
         )
 
