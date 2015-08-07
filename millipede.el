@@ -1,4 +1,4 @@
-#!/usr/bin/emacs --script
+#!/usr/bin/env emacs --script
 
 (setq head "    ╚⊙ ⊙╝\n")
 (setq body "╚═(███)═╝\n")
