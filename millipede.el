@@ -22,9 +22,9 @@
     (if (elt argv 0)
         (setq size (string-to-number (elt argv 0)))
         (if '(integerp size)
-                (setq size 21)
+                (setq size 20)
             )
-            (setq size 22)
+            (setq size 20)
         )
 
     (when (<= size 0)
